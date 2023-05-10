@@ -1,0 +1,31 @@
+h1{
+    color:rgb(1, 1, 23)
+    
+}
+
+
+   .main,h2{
+    color: rgba(5, 5, 5, 0.989);
+    font-size: x-large;
+   }
+   h2{
+    color: rgb(105, 47, 5);
+   }
+   .main{
+    background: rgba(240, 227, 227, 0.379);
+    backdrop-filter:blur(0px);
+    height: 125%;
+    
+   }
+
+
+
+   
+
+
+    
+
+
+
+
+

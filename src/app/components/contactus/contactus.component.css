@@ -1,0 +1,26 @@
+ 
+ 
+  /*.main{
+    background: rgba(240, 227, 227, 0.379);
+    backdrop-filter:blur(0px);
+    height: 125%;
+    text-align: center;
+    
+    
+   }
+   */
+   h1{
+    color: rgb(105, 47, 5);
+    
+   }
+   .main{
+    text-align: center;
+    font-size: x-large;
+   }
+   h2{
+    color: rgb(105, 47, 5);
+   }
+
+   
+
+

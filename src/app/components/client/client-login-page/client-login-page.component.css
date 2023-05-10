@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    
+    
+}
+div{
+    text-align: center;
+    font-size: x-large;
+}
+.main{
+    background: rgba(240, 227, 227, 0.379);
+    backdrop-filter:blur(0px);
+    height: 125%;
+    font-size: x-large;
+    
+   }

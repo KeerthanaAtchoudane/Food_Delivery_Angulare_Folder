@@ -1,0 +1,26 @@
+<div *ngIf="cartList.length===0">
+    No product available in cart
+</div>
+<div *ngIf="cartList.length>0">
+<table border="2" align="center">
+    <tr>
+        <th>Cart Id</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+        <th></th>
+        </tr>
+    <tr *ngFor="let cart of cartList" align="center">
+        <td>{{cart?.cartId}}</td>
+        <td>{{cart?.quantity}}</td>
+        <td>{{cart?.mrpPrice}}</td>
+        <td>{{getTotal(cart?.quantity,cart?.mrpPrice)}}</td>
+        <td><button (click)="deleteCart(cart)">Delete Cart</button></td>
+        
+
+
+    </tr>
+</table>
+<div class="main">
+    <b>Grand Total: </b>{{grandTotal}} <button (click)="placeOrder()">Place Order</button>
+</div>

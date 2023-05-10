@@ -1,0 +1,10 @@
+
+<div class="main">
+    <h1>YuMMie$</h1>
+    <div (click)="gotourl('')" [class.selected]="url === '/'">HOME</div>
+    <div (click)="gotourl('about-us')" [class.selected]="url === '/about-us'">ABOUT-US</div>
+    <div (click)="gotourl('client-register')"  [class.selected]="url === '/client-register'">SIGNUP</div>
+    <div (click)="gotourl('client-login')" [class.selected]="url === '/client-login'">LOGIN</div>
+    <div (click)="gotourl('admin-login')" [class.selected]="url === '/admin-login'">ADMIN-LOGIN</div>
+    <div (click)="gotourl('contact-us')" [class.selected]="url === '/contact-us'">CONTACT-US</div>
+</div>

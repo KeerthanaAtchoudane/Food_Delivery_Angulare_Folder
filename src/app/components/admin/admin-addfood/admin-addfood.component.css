@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.main{
+    background: rgba(240, 227, 227, 0.379);
+    backdrop-filter:blur(0px);
+    height: 125%;
+    font-size: x-large;
+    
+   }
+   div{
+    
+    font-size: xx-large;
+   }

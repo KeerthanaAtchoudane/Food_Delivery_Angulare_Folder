@@ -1,0 +1,22 @@
+<div *ngIf="orderList.length>0"><table border="2" align="center">
+    <tr align="center">
+    <th>Order Id</th>
+    <th>Order Date</th>
+    <th>Mrp Price</th>
+    <th>Quantity</th>
+    <th>Total price</th>
+    <th>Order Status</th>
+    <th>Payment Status</th>
+
+    </tr>
+    <tr *ngFor="let order of orderList" align="center">
+        <td>{{order?.orderId}}</td>
+        <td>{{getDate(order?.orderedDate)}}</td>
+        <td>{{order?.mrpPrice}}</td>
+        <td>{{order?.quantity}}</td>
+        <td>{{order?.totalPrice}}</td>
+        <td>{{order?.orderStatus}}</td>
+        <td>{{order?.paymentStatus}}</td>
+    </tr>
+</table>
+</div>

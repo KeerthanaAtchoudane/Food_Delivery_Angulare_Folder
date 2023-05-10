@@ -1,0 +1,11 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body{
+    background-image : url("./assets/images/PIC1.jpg");
+     /* The image used */
+      height: 500px; /* You must set a specified height */
+      background-position: center; /* Center the image */
+       /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    

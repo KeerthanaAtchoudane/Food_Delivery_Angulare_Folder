@@ -1,0 +1,29 @@
+<div *ngIf="productList.length===0">
+    No product is available in list
+</div>
+<div *ngIf="productList.length>0">
+<table border="2" align="center">
+    <tr align="center">
+        <th>Menu Id</th>
+        <th>Food Name</th>
+        <th>Food Category</th>
+        <th>Food Image</th>
+        <th>Food Price</th>
+        <th>Food Quantity</th>
+        <th>Order Quantity</th>
+        <th></th>
+    </tr>
+    <tr *ngFor="let product of productList" align="center">
+        <td>{{product?.productId}}</td>
+        <td>{{product?.productname}}</td>
+        <td>{{product?.description}}</td>
+        <td><img [src]="product?.image" /></td>
+        <td>{{product?.mrpPrice}}</td>
+        <td>{{product?.quantity}}</td>
+        <td><input type ="text" [id]="product?.productId" /></td>
+        <td>
+            <button (click)="addToCart(product)" >Add to Cart</button>
+           
+        </td>
+</table>
+</div>

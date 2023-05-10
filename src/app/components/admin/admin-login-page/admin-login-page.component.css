@@ -1,0 +1,11 @@
+h1{
+    color: rgba(0, 0, 0, 0.999);
+    text-shadow: 0cm;
+}
+.main{
+        background: rgba(240, 227, 227, 0.379);
+        backdrop-filter:blur(0px);
+        height: 125%;
+        font-size: x-large;
+        
+       }
